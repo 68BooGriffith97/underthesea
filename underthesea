@@ -1,0 +1,84 @@
+#under the sea game
+
+from time import sleep
+print("Welcome to the game.")
+sleep(1)
+
+print("You are under the sea, in a shark tank, you have been dropped 47 meters down under sea level.")
+print("There is an angry, hungry shark that knows where you are.")
+sleep(1.5)
+
+print("What is your most important thing to survive?")
+
+print("Type 1, if you would just die")
+print("Type 2, if it is air")
+print("Type 3, if you need food")
+
+while True:
+
+    choice=input()
+
+    if choice == ("1"):
+        print("Try another option.")
+
+    elif choice == ("2"):
+        print("Air is a good thing when you want to survive")
+        break
+    
+    elif choice == ("3"):
+        print("Shouldnt be your main priority")
+
+    else:
+        print("The computer does not understand")
+
+
+print("LEVEL 2!!")
+sleep(1)
+print("So now you have air, you need a technique.")
+sleep(1)
+print("If your technique is ...")
+sleep(1)
+print("Type 1 if, you stay still and pretend you are dead")
+sleep(1)
+print("Type 2 if, you attempt to open the cage without a key")
+sleep(1)
+print("Type 3 if, you use all of your air praying to your God!")
+
+while True:
+    choice=input()
+
+    if choice == "1":
+        print("the shark wont see you then good choice!")
+        break
+    elif choice == "2":
+        print("No that wont work you need a key")
+
+    elif choice == "3":
+        print("You will die")
+
+
+print("LEVEL 3!!")
+sleep(1)
+print("The shark does not see you, great!")
+sleep(1)
+print("You need to swim away now but your leg is trapped under a rock in the cage")
+sleep(1)
+print("Type 1 if, you cut your leg off")
+sleep(1)
+print("Type 2 if, you get another rock and break that one that has your leg trapped")
+sleep(1)
+print("Type 3 if, you wiggle your leg free")    
+
+while True:
+    choice=input()
+
+    if choice == ("1"):
+        print("No you will not make yourself an amputy")
+        
+    elif choice == ("2"):
+        print("No your not able to reach the rock")
+
+    elif choice == ("3"):
+        print("Yay you get free then your saved")
+        break
+        print("The End!!!")
